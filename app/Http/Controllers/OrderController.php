@@ -6,8 +6,10 @@ use Illuminate\Http\Request;
 
 class OrderController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        return response('');
+        return view('order.index', [
+            'title'         => 'Novo pedido'
+        ]);
     }
 }
