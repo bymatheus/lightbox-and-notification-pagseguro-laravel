@@ -12,4 +12,9 @@ class OrderController extends Controller
             'title'         => 'Novo pedido'
         ]);
     }
+
+    public function store()
+    {
+
+    }
 }

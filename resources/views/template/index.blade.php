@@ -11,6 +11,7 @@
     @yield('content')
 
     <script src="{{ asset('dist/js/bootstrap.min.js') }}"></script>
+
     @yield('additional-script')
     </body>
 </html>
